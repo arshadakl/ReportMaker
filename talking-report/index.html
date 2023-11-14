@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weekly Talk Program Report Maker</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Program Report Maker</h1>
+		<form>
+			<label for="topic">Topic of Discussion:</label>
+			<input type="text" id="topic" required>
+			<label for="moderator">Moderator Name and Year:</label>
+			<input type="text" id="moderator" required>
+      <label for="date">Date:</label>
+			<input type="text" id="date" required>
+			
+      
+      <label for="inauguratedBy">inaugurated By:</label>
+<select name="inauguratedBy" id="inauguratedBy" required>
+  <option value="Nishana EP (Assistant Professor Department of Sociology)">Nishana EP</option>
+  <option value="Vasil CK (HOD Department of Sociology)">Vasil CK</option>
+  <option value="Jagannathan PR (Association Co-ordinator Department of Sociology)">Jagannathan PR (Association Co-ordinator Department of Sociology)</option>
+  <option value="Arathi (Assistant Professor Department of Sociology)">Arathi</option>
+</select>
+
+<br>
+<label for="felicitatedBy1">Felicitated By:</label>
+<select name="felicitatedBy1" id="felicitatedBy1">
+  <option value="Nishana EP (Assistant Professor Department of Sociology)">Nishana EP</option>
+  <option value="Vasil CK (HOD Department of Sociology)">Vasil CK</option>
+  <option value="Jagannathan PR (Association Co-ordinator Department of Sociology)">Jagannathan PR (Association Co-ordinator Department of Sociology)</option>
+  <option value="Arathi (Assistant Professor Department of Sociology)">Arathi</option>
+</select>
+<br>
+<label for="felicitatedBy2">Felicitated By:</label>
+<select name="felicitatedBy2" id="felicitatedBy2">
+  <option value="Nishana EP (Assistant Professor Department of Sociology)">Nishana EP</option>
+  <option value="Vasil CK (HOD Department of Sociology)">Vasil CK</option>
+  <option value="Jagannathan PR (Association Co-ordinator Department of Sociology)">Jagannathan PR (Association Co-ordinator Department of Sociology)</option>
+  <option value="Arathi (Assistant Professor Department of Sociology)">Arathi</option>
+</select>
+
+
+      <!-- <label for="inauguratedBy">Choose your browser from the list:</label>
+<input list="inaugurated-By" name="inauguratedBy" id="inauguratedBy">
+<datalist id="inaugurated-By">
+  <option value="Nishana EP (Assistant Professor Department of Sociology)">
+  <option value="Vasil CK (HOD Department of Sociology)">
+  <option value="Jagannathan PR (Association Co-ordinator Department of Sociology)">
+</datalist>
+			<label for="felicitatedBy">Felicitated By:</label>
+			<input type="text" id="felicitatedBy" required>
+			<label for="coordinator">Association Coordinator:</label>
+			<input type="text" id="coordinator" required> -->
+
+			<button type="submit" id="submitBtn">Generate Report</button>
+		</form>
+		<div id="report"></div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
